@@ -1,5 +1,6 @@
 """
-Time compleixty average case us O(n) because you iterate the list once, doing constant-time hash map lookups and inserts per element on average.
+Time complexity average case is O(n) because you iterate the list once, doing constant-time hash map lookups and inserts per element on average.
+Space complexity is O(n) in the worst case, where all elements are unique and stored in the hash map.
 
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
