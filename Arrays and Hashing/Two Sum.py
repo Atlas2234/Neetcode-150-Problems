@@ -21,6 +21,9 @@ Cleaner solution that uses a hash set instead of a dictionary.
 Time complexity is O(n) because you iterate through the list once, doing constant-time hash map lookups and inserts per element on average.
 Space complexity is O(n) in the worst case, where all elements are unique and stored in the hash map.
 """
+from typing import List
+
+
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
         seen = set()

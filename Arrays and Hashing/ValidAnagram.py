@@ -40,6 +40,9 @@ to count characters.
 
 Space complexity is O(1) because the size of the character count dictionary is bounded by the number of unique characters, which is constant (e.g., 26 for lowercase English letters).
 """
+from typing import List
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # Initialize the dictionary

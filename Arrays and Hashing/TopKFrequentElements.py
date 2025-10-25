@@ -34,6 +34,9 @@ Time complexity is O(n) on average.
 Space complexity is O(n) for the dictionary and buckets.
 """
 
+from typing import List
+
+
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count = {}
