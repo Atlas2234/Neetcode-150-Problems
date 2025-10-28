@@ -2,6 +2,9 @@
 Time Complexity is O(n)
 Space Complexity is O(n)
 """
+from ast import List
+
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         # Create a set from the list to allow O(1) lookups
